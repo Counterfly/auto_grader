@@ -1,0 +1,5 @@
+# This is a sample output file where the columns represent the students' ID, followed by their evaluation/grade on each test
+cdfid,check_model_1_constraints,check_model_1_constraints_enum,check_model_2_constraints,check_model_2_constraints_enum,check_satisfying_tuples_model_1,check_satisfying_tuples_model_2,model_1_import,model_2_import,test_DWO,test_board1_model_1,test_board2_model_2,test_fc_10queens,test_gac_10queens,test_model_board1_model_1,test_model_board2_model_2,test_model_unsolvable_board_model_1,test_model_unsolvable_board_model_2,test_prop_board1_model_1,test_prop_board2_model_2,test_prop_unsolvable_board_model_1,test_prop_unsolvable_board_model_2,test_simple_FC,test_simple_GAC,test_unsolvable_board_model_1,test_unsolvable_board_model_2,three_queen_FC,three_queen_GAC,total
+max,6,6,6,6,6,6,3,3,12,2,2,6,6,2,2,2,2,2,2,2,2,6,6,2,2,9,9,120
+c0fakeStudent,0,0,0,0,0,0,0,0,12,0,0,6,6,0,0,0,0,0,0,0,0,6,6,0,0,9,9,54
+m4ster,6,6,6,6,6,6,3,3,12,0,0,6,6,0,0,0,0,0,0,0,0,6,6,0,0,9,9,96
