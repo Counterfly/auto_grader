@@ -1,0 +1,86 @@
+####################
+# Assignment 2
+####################
+
+Overall: 54/120
+====================
+Test Case: [function=check_model_1_constraints]	[0/6]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 298, in check_model_1_constraints\n    csp, var_array = stu_model.sudoku_csp_model_1(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_1\'\n'
+====================
+Test Case: [function=check_model_1_constraints_enum]	[0/6]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 233, in check_model_1_constraints_enum\n    csp, var_array = stu_model.sudoku_csp_model_1(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_1\'\n'
+====================
+Test Case: [function=check_model_2_constraints]	[0/6]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 390, in check_model_2_constraints\n    csp, var_array = stu_model.sudoku_csp_model_2(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_2\'\n'
+====================
+Test Case: [function=check_model_2_constraints_enum]	[0/6]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 328, in check_model_2_constraints_enum\n    csp, var_array = stu_model.sudoku_csp_model_2(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_2\'\n'
+====================
+Test Case: [function=check_satisfying_tuples_model_1]	[0/6]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 424, in check_satisfying_tuples_model_1\n    csp, var_array = stu_model.sudoku_csp_model_1(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_1\'\n'
+====================
+Test Case: [function=check_satisfying_tuples_model_2]	[0/6]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 480, in check_satisfying_tuples_model_2\n    csp, var_array = stu_model.sudoku_csp_model_2(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_2\'\n'
+====================
+Test Case: [function=model_1_import]	[0/3]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 169, in model_1_import\n    csp, var_array = stu_model.sudoku_csp_model_1(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_1\'\n'
+====================
+Test Case: [function=model_2_import]	[0/3]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 202, in model_2_import\n    csp, var_array = stu_model.sudoku_csp_model_2(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_2\'\n'
+====================
+Test Case: [function=test_DWO]	[12/12]
+	PASSED
+====================
+Test Case: [function=test_board1_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 830, in test_board1_model_1\n    csp, var_array = stu_model.sudoku_csp_model_1(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_1\'\n'
+====================
+Test Case: [function=test_board2_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 924, in test_board2_model_2\n    csp, var_array = stu_model.sudoku_csp_model_2(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_2\'\n'
+====================
+Test Case: [function=test_fc_10queens]	[6/6]
+	PASSED
+====================
+Test Case: [function=test_gac_10queens]	[6/6]
+	PASSED
+====================
+Test Case: [function=test_model_board1_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 861, in test_model_board1_model_1\n    csp, var_array = stu_model.sudoku_csp_model_1(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_1\'\n'
+====================
+Test Case: [function=test_model_board2_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 955, in test_model_board2_model_2\n    csp, var_array = stu_model.sudoku_csp_model_2(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_2\'\n'
+====================
+Test Case: [function=test_model_unsolvable_board_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 661, in test_model_unsolvable_board_model_1\n    csp, var_array = stu_model.sudoku_csp_model_1(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_1\'\n'
+====================
+Test Case: [function=test_model_unsolvable_board_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 762, in test_model_unsolvable_board_model_2\n    csp, var_array = stu_model.sudoku_csp_model_2(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_2\'\n'
+====================
+Test Case: [function=test_prop_board1_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 894, in test_prop_board1_model_1\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_prop_board2_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 988, in test_prop_board2_model_2\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_prop_unsolvable_board_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 696, in test_prop_unsolvable_board_model_1\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_prop_unsolvable_board_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 798, in test_prop_unsolvable_board_model_2\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_simple_FC]	[6/6]
+	PASS
+====================
+Test Case: [function=test_simple_GAC]	[6/6]
+	PASS
+====================
+Test Case: [function=test_unsolvable_board_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 628, in test_unsolvable_board_model_1\n    csp, var_array = stu_model.sudoku_csp_model_1(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_1\'\n'
+====================
+Test Case: [function=test_unsolvable_board_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 728, in test_unsolvable_board_model_2\n    csp, var_array = stu_model.sudoku_csp_model_2(board)\nAttributeError: \'module\' object has no attribute \'sudoku_csp_model_2\'\n'
+====================
+Test Case: [function=three_queen_FC]	[9/9]
+	PASS
+====================
+Test Case: [function=three_queen_GAC]	[9/9]
+	PASS

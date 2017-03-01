@@ -1,0 +1,436 @@
+####################
+# Assignment 2
+####################
+
+Overall: 0/120
+====================
+Test Case: [function=check_model_1_constraints]	[0/6]
+	KeyError was raised: 'sudoku_csp.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 289, in check_model_1_constraints
+    stu_model = student_modules[SUDOKUCSP]
+KeyError: 'sudoku_csp.py'
+
+====================
+Test Case: [function=check_model_1_constraints_enum]	[0/6]
+	KeyError was raised: 'sudoku_csp.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 224, in check_model_1_constraints_enum
+    stu_model = student_modules[SUDOKUCSP]
+KeyError: 'sudoku_csp.py'
+
+====================
+Test Case: [function=check_model_2_constraints]	[0/6]
+	KeyError was raised: 'sudoku_csp.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 381, in check_model_2_constraints
+    stu_model = student_modules[SUDOKUCSP]
+KeyError: 'sudoku_csp.py'
+
+====================
+Test Case: [function=check_model_2_constraints_enum]	[0/6]
+	KeyError was raised: 'sudoku_csp.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 319, in check_model_2_constraints_enum
+    stu_model = student_modules[SUDOKUCSP]
+KeyError: 'sudoku_csp.py'
+
+====================
+Test Case: [function=check_satisfying_tuples_model_1]	[0/6]
+	KeyError was raised: 'sudoku_csp.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 414, in check_satisfying_tuples_model_1
+    stu_model = student_modules[SUDOKUCSP]
+KeyError: 'sudoku_csp.py'
+
+====================
+Test Case: [function=check_satisfying_tuples_model_2]	[0/6]
+	KeyError was raised: 'sudoku_csp.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 470, in check_satisfying_tuples_model_2
+    stu_model = student_modules[SUDOKUCSP]
+KeyError: 'sudoku_csp.py'
+
+====================
+Test Case: [function=model_1_import]	[0/3]
+	KeyError was raised: 'sudoku_csp.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 159, in model_1_import
+    stu_model = student_modules[SUDOKUCSP]
+KeyError: 'sudoku_csp.py'
+
+====================
+Test Case: [function=model_2_import]	[0/3]
+	KeyError was raised: 'sudoku_csp.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 192, in model_2_import
+    stu_model = student_modules[SUDOKUCSP]
+KeyError: 'sudoku_csp.py'
+
+====================
+Test Case: [function=test_DWO]	[0/12]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 593, in test_DWO
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_board1_model_1]	[0/2]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 819, in test_board1_model_1
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_board2_model_2]	[0/2]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 913, in test_board2_model_2
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_fc_10queens]	[0/6]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 559, in test_fc_10queens
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_gac_10queens]	[0/6]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 524, in test_gac_10queens
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_model_board1_model_1]	[0/2]
+	KeyError was raised: 'sudoku_csp.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 851, in test_model_board1_model_1
+    stu_model = student_modules[SUDOKUCSP]
+KeyError: 'sudoku_csp.py'
+
+====================
+Test Case: [function=test_model_board2_model_2]	[0/2]
+	KeyError was raised: 'sudoku_csp.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 945, in test_model_board2_model_2
+    stu_model = student_modules[SUDOKUCSP]
+KeyError: 'sudoku_csp.py'
+
+====================
+Test Case: [function=test_model_unsolvable_board_model_1]	[0/2]
+	KeyError was raised: 'sudoku_csp.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 651, in test_model_unsolvable_board_model_1
+    stu_model = student_modules[SUDOKUCSP]
+KeyError: 'sudoku_csp.py'
+
+====================
+Test Case: [function=test_model_unsolvable_board_model_2]	[0/2]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 751, in test_model_unsolvable_board_model_2
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_prop_board1_model_1]	[0/2]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 882, in test_prop_board1_model_1
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_prop_board2_model_2]	[0/2]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 976, in test_prop_board2_model_2
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_prop_unsolvable_board_model_1]	[0/2]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 684, in test_prop_unsolvable_board_model_1
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_prop_unsolvable_board_model_2]	[0/2]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 785, in test_prop_unsolvable_board_model_2
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_simple_FC]	[0/6]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 23, in test_simple_FC
+    stu_propagators = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_simple_GAC]	[0/6]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 56, in test_simple_GAC
+    stu_propagators = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_unsolvable_board_model_1]	[0/2]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 616, in test_unsolvable_board_model_1
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=test_unsolvable_board_model_2]	[0/2]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 717, in test_unsolvable_board_model_2
+    stu_prop = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=three_queen_FC]	[0/9]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 125, in three_queen_FC
+    stu_propagators = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'
+
+====================
+Test Case: [function=three_queen_GAC]	[0/9]
+	KeyError was raised: 'propagators.py'
+Traceback (most recent call last):
+  File "student_grader/grade.py", line 49, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/assignment.py", line 47, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_case.py", line 57, in execute
+    return self._function(assignment_module)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 90, in three_queen_GAC
+    stu_propagators = student_modules[PROPAGATORS]
+KeyError: 'propagators.py'

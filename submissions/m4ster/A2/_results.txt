@@ -1,0 +1,86 @@
+####################
+# Assignment 2
+####################
+
+Overall: 96/120
+====================
+Test Case: [function=check_model_1_constraints]	[6/6]
+	PASS
+====================
+Test Case: [function=check_model_1_constraints_enum]	[6/6]
+	PASS
+====================
+Test Case: [function=check_model_2_constraints]	[6/6]
+	PASS
+====================
+Test Case: [function=check_model_2_constraints_enum]	[6/6]
+	PASS
+====================
+Test Case: [function=check_satisfying_tuples_model_1]	[6/6]
+	PASSED
+====================
+Test Case: [function=check_satisfying_tuples_model_2]	[6/6]
+	PASSED
+====================
+Test Case: [function=model_1_import]	[3/3]
+	PASS
+====================
+Test Case: [function=model_2_import]	[3/3]
+	PASS
+====================
+Test Case: [function=test_DWO]	[12/12]
+	PASSED
+====================
+Test Case: [function=test_board1_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 832, in test_board1_model_1\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_board2_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 926, in test_board2_model_2\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_fc_10queens]	[6/6]
+	PASSED
+====================
+Test Case: [function=test_gac_10queens]	[6/6]
+	PASSED
+====================
+Test Case: [function=test_model_board1_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 863, in test_model_board1_model_1\n    solver.bt_search(soln_propagators.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_model_board2_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 957, in test_model_board2_model_2\n    solver.bt_search(soln_propagators.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_model_unsolvable_board_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 663, in test_model_unsolvable_board_model_1\n    solver.bt_search(soln_propagators.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_model_unsolvable_board_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 764, in test_model_unsolvable_board_model_2\n    solver.bt_search(soln_propagators.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_prop_board1_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 894, in test_prop_board1_model_1\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_prop_board2_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 988, in test_prop_board2_model_2\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_prop_unsolvable_board_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 696, in test_prop_unsolvable_board_model_1\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_prop_unsolvable_board_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 798, in test_prop_unsolvable_board_model_2\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_simple_FC]	[6/6]
+	PASS
+====================
+Test Case: [function=test_simple_GAC]	[6/6]
+	PASS
+====================
+Test Case: [function=test_unsolvable_board_model_1]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 630, in test_unsolvable_board_model_1\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=test_unsolvable_board_model_2]	[0/2]
+	Error occurred: 'Traceback (most recent call last):\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/assignment/test_cases.py", line 730, in test_unsolvable_board_model_2\n    solver.bt_search(stu_prop.prop_GAC)\n  File "/Users/Markintosh/dev/CSC384/automated_tests/A2/tests/auto_grader/student_grader/dependencies/cspbase.py", line 473, in bt_search\n    stime = time.process_time()\nAttributeError: \'module\' object has no attribute \'process_time\'\n'
+====================
+Test Case: [function=three_queen_FC]	[9/9]
+	PASS
+====================
+Test Case: [function=three_queen_GAC]	[9/9]
+	PASS
